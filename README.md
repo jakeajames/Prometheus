@@ -9,9 +9,13 @@ futurerestore for noobs and lazy people. With a GUI. THIS IS NOT A MODIFIED futu
 4. Drag the install.sh file again and click enter. Wait for it to finish
 
 
-If install.sh is giving you Xcode errors, either update to Xcode 9 Beta or remove Xcode temporarily. For permission errors use the newest install.sh (just updated)
 
 # FAQ
+
+Q: Why does Prometheus crash after I close the alert?
+
+A: Reason not known yet, if this happens to you, compile using Xcode and send me the whole log after the app crashes
+
 
 Q: Why I can't choose a custom ipsw?
 
