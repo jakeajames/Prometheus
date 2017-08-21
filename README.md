@@ -15,7 +15,7 @@ Bugs, issues or failed restore attempts go to the Issues tab. Do NOT contact tih
 
 Q: Why does Prometheus crash after I close the alert?
 
-A: Reason not known yet, if this happens to you, compile using Xcode and send me the whole log after the app crashes. UPDATE: it might work if you compile it yourself with Xcode, preferably version 8 or 9 Beta. *install.sh still must be ran, as per instructions*. If it doesn't send me the log from the bottom of Xcode
+A: Reason not known yet, if this happens to you, compile using Xcode and send me the whole log after the app crashes. UPDATE: it might work if you compile it yourself with Xcode, preferably version 8 or 9 Beta.  If it doesn't send me the log from the bottom of Xcode. *install.sh still must be ran, as per instructions*.
 
 
 Q: Why I can't choose a custom ipsw?
