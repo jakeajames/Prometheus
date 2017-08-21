@@ -9,6 +9,7 @@ futurerestore for noobs and lazy people. With a GUI. THIS IS NOT A MODIFIED futu
 4. Drag the install.sh file again and click enter. Wait for it to finish
 
 
+Bugs, issues or failed restore attempts go to the Issues tab. Do NOT contact tihmstar about issues with this tool
 
 # FAQ
 
