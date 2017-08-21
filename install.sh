@@ -1,6 +1,6 @@
 if [ -f "/usr/local/bin/brew" ]
 then
-echo ""
+echo "HomeBrew installed!"
 else
 echo "Installing brew"
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
