@@ -8,6 +8,9 @@ futurerestore for noobs and lazy people. With a GUI. THIS IS NOT A MODIFIED futu
 3. Open Terminal, write `chmod 777 `, drag the install.sh file and click enter
 4. Drag the install.sh file again and click enter. Wait for it to finish
 
+
+If install.sh is giving you Xcode errors, either update to Xcode 9 Beta or remove Xcode temporarily. For permission errors use the newest install.sh (just updated)
+
 # FAQ
 
 Q: Why I can't choose a custom ipsw?
