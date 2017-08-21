@@ -10,10 +10,12 @@ brew install libimobiledevice
 brew install ideviceinstaller
 echo "Fixing stuff..."
 cd /usr/local/opt/openssl/lib/
-mkdir /opt
-mkdir /opt/local
-mkdir /opt/local/lib
-cp libcrypto*dylib /opt/local/lib/
+
+# You need root to do this
+# rhcp011235@me.com
+# http://twitter.com/john011235
+sudo mkdir -p /opt/local/lib/
+sudo cp libcrypto*dylib /opt/local/lib/
 
 echo "Downloading latest futurerestore..."
 mkdir ~/.futurerestore
