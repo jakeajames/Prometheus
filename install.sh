@@ -9,11 +9,13 @@ echo "Installing dependencies.."
 brew install libimobiledevice
 brew install ideviceinstaller
 echo "Fixing stuff..."
+echo "You may be asked for your admin password now, enter it and click return"
+sleep 1
 cd /usr/local/opt/openssl/lib/
-mkdir /opt
-mkdir /opt/local
-mkdir /opt/local/lib
-cp libcrypto*dylib /opt/local/lib/
+sudo mkdir /opt
+sudo mkdir /opt/local
+sudo mkdir /opt/local/lib
+sudo cp libcrypto*dylib /opt/local/lib/
 
 echo "Downloading latest futurerestore..."
 mkdir ~/.futurerestore
