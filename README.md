@@ -5,7 +5,8 @@ futurerestore for noobs and lazy people. With a GUI. THIS IS NOT A MODIFIED futu
 
 1. Download Prometheus.app and install.sh
 2. Put Prometheus.app inside of /Applications or somewhere
-3. Open Terminal, drag the install.sh file and click enter, wait for it to finish
+3. Open Terminal, write `chmod 777 `, drag the install.sh file and click enter
+4. Drag the install.sh file again and click enter. Wait for it to finish
 
 # FAQ
 
