@@ -1,5 +1,8 @@
 # Prometheus
+
 futurerestore for noobs and lazy people. With a GUI. THIS IS NOT A MODIFIED futurerestore, THIS IS A SEPARATE TOOL WHICH RUNS IT FOR YOU WITH A NICE GUI
+<p align="center">
+<div style="text-align:center"><img src="https://user-images.githubusercontent.com/15067741/29539686-06469a10-8699-11e7-9702-4d385b2cd0b4.png" width="530" height= "210"/></div></p>
 
 # How to install
 
