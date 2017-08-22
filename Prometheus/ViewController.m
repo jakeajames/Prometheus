@@ -147,7 +147,7 @@ BOOL success3 = NO;
              
         
         dispatch_async(dispatch_get_main_queue(), ^(void){
-            if ([output isEqualToString:@""]) {
+            if ([output isEqualToString:nil]) {
                 
                 [_ipswPath setEnabled:NO];
                 [_jbken setEnabled:NO];
@@ -209,7 +209,7 @@ BOOL success3 = NO;
 - (IBAction)downgrade:(id)sender {
     //doit = NO;
     
-    if ([self.blobsPath.stringValue isEqualToString:@""]) {
+    if ([self.blobsPath.stringValue isEqualToString:nil]) {
         NSAlert *alert = [[NSAlert alloc] init];
         
         [alert addButtonWithTitle:@"OK"];
@@ -238,7 +238,7 @@ BOOL success3 = NO;
     }
     else if (self.useLF.state == NSControlStateValueOff && self.nobaseband.state == NSControlStateValueOff){
         
-        if ([self.Sipswpath.stringValue isEqualToString:@""]) {
+        if ([self.Sipswpath.stringValue isEqualToString:nil]) {
             NSAlert *alert = [[NSAlert alloc] init];
             
             [alert addButtonWithTitle:@"OK"];
@@ -352,7 +352,7 @@ BOOL success3 = NO;
     
     else if (self.useLF.state == NSControlStateValueOff && self.nobaseband.state == NSControlStateValueOn) {
         
-        if ([self.Sipswpath.stringValue isEqualToString:@""]) {
+        if ([self.Sipswpath.stringValue isEqualToString:nil]) {
             NSAlert *alert = [[NSAlert alloc] init];
             
             [alert addButtonWithTitle:@"OK"];
@@ -462,7 +462,7 @@ BOOL success3 = NO;
     if (_debug.state == NSControlStateValueOn) {
         [cmd appendString:@"-d "];
     }
-    if ([self.ipswPath.stringValue isEqualToString:@""]) {
+    if ([self.ipswPath.stringValue isEqualToString:nil]) {
         NSAlert *alert = [[NSAlert alloc] init];
         
         [alert addButtonWithTitle:@"OK"];
