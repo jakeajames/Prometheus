@@ -10,7 +10,7 @@
  1. nullpixel aka nullriver aka Jamie Bishop aka Jane Bishop aka nullbrain
  2. 1Conan aka Conan edogavablablah
  3. Blu3Dev aka Blu3_dev aka BSDIsShit (I know your secret :p xd :d ;p)
- 4. iAdam1n, aka **** ******
+ 4. iAdam1n, aka Adam Insull
  5. hizinfiz
  6. Hipp013
  */
@@ -66,7 +66,7 @@
         
         dispatch_async(dispatch_get_main_queue(), ^{
             
-            if(![outputString isEqualToString:@""] && ![outputString isEqualToString:@"\n"]) {
+            if(![outputString isEqualToString:nil] && ![outputString isEqualToString:@"\n"]) {
             self.status.string = [NSString stringWithFormat:@"%@\n%@", self.status.string, outputString];
                 [self.status scrollRangeToVisible: NSMakeRange(self.status.string.length, 0)];
             }
