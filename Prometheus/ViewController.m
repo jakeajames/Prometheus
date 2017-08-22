@@ -8,8 +8,8 @@
 /*
  1. nullpixel aka nullriver aka Jamie Bishop aka Jane Bishop aka nullbrain
  2. 1Conan aka Conan edogavablablah
- 3. Blu3Dev aka Blu3_dev aka B******* (I know your secret :p xd)
- 4. iAdam1n, aka **** ******
+ 3. Blu3Dev aka Blu3_dev aka BSDIsShit (I know your secret :p xd)
+ 4. iAdam1n, aka Adam Insull
  5. hizinfiz
  6. Hipp013
  */
@@ -147,7 +147,7 @@ BOOL success3 = NO;
              
         
         dispatch_async(dispatch_get_main_queue(), ^(void){
-            if ([output isEqualToString:@""]) {
+            if ([output isEqualToString:nil]) {
                 
                 [_ipswPath setEnabled:NO];
                 [_jbken setEnabled:NO];
@@ -209,7 +209,7 @@ BOOL success3 = NO;
 - (IBAction)downgrade:(id)sender {
     //doit = NO;
     
-    if ([self.blobsPath.stringValue isEqualToString:@""]) {
+    if ([self.blobsPath.stringValue isEqualToString:nil]) {
         NSAlert *alert = [[NSAlert alloc] init];
         
         [alert addButtonWithTitle:@"OK"];
@@ -238,7 +238,7 @@ BOOL success3 = NO;
     }
     else if (self.useLF.state == NSControlStateValueOff && self.nobaseband.state == NSControlStateValueOff){
         
-        if ([self.Sipswpath.stringValue isEqualToString:@""]) {
+        if ([self.Sipswpath.stringValue isEqualToString:nil]) {
             NSAlert *alert = [[NSAlert alloc] init];
             
             [alert addButtonWithTitle:@"OK"];
@@ -352,7 +352,7 @@ BOOL success3 = NO;
     
     else if (self.useLF.state == NSControlStateValueOff && self.nobaseband.state == NSControlStateValueOn) {
         
-        if ([self.Sipswpath.stringValue isEqualToString:@""]) {
+        if ([self.Sipswpath.stringValue isEqualToString:nil]) {
             NSAlert *alert = [[NSAlert alloc] init];
             
             [alert addButtonWithTitle:@"OK"];
@@ -462,7 +462,7 @@ BOOL success3 = NO;
     if (_debug.state == NSControlStateValueOn) {
         [cmd appendString:@"-d "];
     }
-    if ([self.ipswPath.stringValue isEqualToString:@""]) {
+    if ([self.ipswPath.stringValue isEqualToString:nil]) {
         NSAlert *alert = [[NSAlert alloc] init];
         
         [alert addButtonWithTitle:@"OK"];
