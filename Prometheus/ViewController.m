@@ -8,7 +8,7 @@
 /*
  1. nullpixel aka nullriver aka Jamie Bishop aka Jane Bishop aka nullbrain
  2. 1Conan aka Conan edogavablablah
- 3. Blu3Dev aka Blu3_dev aka B******* (I know your secret :p xd)
+ 3. Blu3Dev aka Blu3_dev aka BSDIsShit (I know your secret :p xd)
  4. iAdam1n, aka **** ******
  5. hizinfiz
  6. Hipp013
