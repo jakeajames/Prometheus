@@ -4,14 +4,6 @@ else
 	echo "Installing brew"
 	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
-echo "Installing dependencies.."
-brew uninstall ideviceinstaller
-brew uninstall libimobiledevice
-brew install --HEAD libimobiledevice
-brew link --overwrite libimobiledevice
-brew install --HEAD ideviceinstaller
-brew link --overwrite ideviceinstaller
-sudo chmod -R 777 /var/db/lockdown/
 
 echo "Fixing stuff..."
 echo "You may be asked for your admin password now, enter it and click return"
