@@ -21,7 +21,7 @@ sudo cp /usr/local/opt/openssl/lib/libcrypto*dylib /opt/local/lib/
 
 echo "Downloading latest futurerestore..."
 mkdir ~/.futurerestore
-curl -o ~/.futurerestore/futurerestore.zip http://api.tihmstar.net/builds/futurerestore/futurerestore-latest.zip
+curl -L -o ~/.futurerestore/futurerestore.zip http://api.tihmstar.net/builds/futurerestore/futurerestore-latest.zip
 cd ~/.futurerestore
 unzip futurerestore.zip
 chmod +x futurerestore_macos
